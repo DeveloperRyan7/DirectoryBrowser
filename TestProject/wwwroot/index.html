@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>File Browser</h1>
+        <!-- Breadcrumb -->
+        <nav id="breadcrumb">Home</nav>
+    </header>
+    <main>
+        <!-- Search Bar -->
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search files and folders...">
+            <button id="search-button">Search</button>
+        </div>
+
+        <!-- Stats Section -->
+        <div id="directory-stats">
+            <p id="file-count">Files: 0</p>
+            <p id="folder-count">Folders: 0</p>
+            <p id="total-size">Total Size: 0 Bytes</p>
+        </div>
+
+        <!-- Upload Section -->
+        <div id="upload-container">
+            <input type="file" id="upload-input" />
+            <button id="upload-button">Upload</button>
+        </div>
+
+        <!-- Directory Viewer Section -->
+        <div id="directory-viewer">
+            <!-- Dynamic content will be rendered here -->
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

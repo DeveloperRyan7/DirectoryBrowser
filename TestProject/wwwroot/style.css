@@ -1,0 +1,192 @@
+﻿/* ============================================================= */
+/* General Reset and Base Styles                                 */
+/* ============================================================= */
+
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base font and background for the app */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* ============================================================= */
+/* Layout and Container Styles                                   */
+/* ============================================================= */
+
+/* Main app container */
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Breadcrumb Styles */
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Breadcrumb container */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #007bff;
+}
+
+.breadcrumb a:hover {
+    background-color: #d6d8db;
+    color: #0056b3;
+}
+
+/* ============================================================= */
+/* Search and Upload Form Styles                                 */
+/* ============================================================= */
+
+/* Search bar container */
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Upload section */
+.upload-section {
+    margin-top: 15px;
+}
+
+.upload-section input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.upload-section button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-section button:hover {
+    background-color: #218838;
+}
+
+/* ============================================================= */
+/* File and Folder Listing Styles                               */
+/* ============================================================= */
+
+/* File and folder list container */
+#content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual file and folder items */
+#content li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+    #content li:last-child {
+        border-bottom: none;
+    }
+
+/* File and folder icons */
+#content .file:before {
+    content: "\1F4C4"; /* Unicode for a document icon */
+    margin-right: 10px;
+}
+
+#content .directory:before {
+    content: "\1F4C1"; /* Unicode for a folder icon */
+    margin-right: 10px;
+}
+
+/* File and folder size */
+#content .size {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+/* ============================================================= */
+/* Totals and Footer Styles                                      */
+/* ============================================================= */
+
+/* Totals section */
+.totals {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}

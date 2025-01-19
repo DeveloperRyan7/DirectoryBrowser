@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "K9MXbdM1S3K3GNFdPjZ2l+VSODp4OEs+h1Xpxpzj18I=",
+  "Source": "TestProject",
+  "BasePath": "_content/TestProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestProject\\wwwroot",
+      "Source": "TestProject",
+      "ContentRoot": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\",
+      "BasePath": "_content/TestProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\app.js",
+      "SourceId": "TestProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\",
+      "BasePath": "_content/TestProject",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\index.html",
+      "SourceId": "TestProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\",
+      "BasePath": "_content/TestProject",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\style.css",
+      "SourceId": "TestProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\huebn\\Desktop\\Work\\MapLargeTestProject\\TestProject\\wwwroot\\",
+      "BasePath": "_content/TestProject",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}
